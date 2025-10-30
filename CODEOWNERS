@@ -1,0 +1,7 @@
+# All other changes require the primary team
+* @GregTech-Engineering/GregTech-Engineering-devs
+
+# Specific files requiring admin approval
+CODEOWNERS @GregTech-Engineering/admin
+LICENSE @GregTech-Engineering/admin
+README.md @GregTech-Engineering/admin
