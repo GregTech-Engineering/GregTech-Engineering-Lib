@@ -1,0 +1,35 @@
+package com.gtelib.utils;
+
+import net.minecraft.resources.ResourceLocation;
+
+import earth.terrarium.adastra.AdAstra;
+import vazkii.botania.api.BotaniaAPI;
+
+public final class RLUtils {
+
+    private RLUtils() {}
+
+    public static ResourceLocation mc(String path) {
+        return new ResourceLocation("minecraft", path);
+    }
+
+    public static ResourceLocation forge(String path) {
+        return new ResourceLocation("forge", path);
+    }
+
+    public static ResourceLocation avaritia(String path) {
+        return new ResourceLocation("avaritia", path);
+    }
+
+    public static ResourceLocation sp(String path) {
+        return new ResourceLocation("sophisticatedbackpacks", path);
+    }
+
+    public static ResourceLocation ad(String path) {
+        return new ResourceLocation(AdAstra.MOD_ID, path);
+    }
+
+    public static ResourceLocation bot(String path) {
+        return new ResourceLocation(BotaniaAPI.MODID, path);
+    }
+}
