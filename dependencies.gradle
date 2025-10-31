@@ -8,6 +8,8 @@ dependencies {
     annotationProcessor(variantOf(libs.mixin) { classifier("processor") })
     api(annotationProcessor(forge.mixinExtras.common.get()))
 
+    modCompileOnly(libs.fastutil.get())
+
     // LDLib
     modCompileOnly(forge.ldlib)
 

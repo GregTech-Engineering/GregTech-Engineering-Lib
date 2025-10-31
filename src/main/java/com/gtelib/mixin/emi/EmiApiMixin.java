@@ -1,5 +1,7 @@
 package com.gtelib.mixin.emi;
 
+import com.gtelib.utils.FluidUtils;
+
 import com.gregtechceu.gtceu.api.item.ComponentItem;
 
 import net.minecraft.nbt.CompoundTag;
@@ -8,7 +10,6 @@ import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
 
-import com.gtelib.utils.FluidUtils;
 import dev.emi.emi.api.EmiApi;
 import dev.emi.emi.api.stack.EmiIngredient;
 import dev.emi.emi.api.stack.EmiStack;
