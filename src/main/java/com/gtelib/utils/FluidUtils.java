@@ -1,11 +1,11 @@
 package com.gtelib.utils;
 
+import com.gtelib.api.fluid.IFluid;
+
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.registries.ForgeRegistries;
-
-import com.gtelib.api.fluid.IFluid;
 
 public class FluidUtils {
 

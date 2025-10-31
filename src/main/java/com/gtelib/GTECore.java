@@ -15,5 +15,8 @@ public class GTECore {
     public static final String Core_ID = "gtecore";
     public static final String Core_NAME = "GregTech Engineering Core";
 
+    public static final String Config_ID = "GTEConfig";
+    public static final String StartUpConfig_Name = "GTECoreStartUpConfig";
+
     public GTECore() {/* compiled code */}
 }

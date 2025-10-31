@@ -1,12 +1,12 @@
 package com.gtelib.utils;
 
+import com.gtelib.api.item.IItem;
+
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
-
-import com.gtelib.api.item.IItem;
 
 public final class ItemUtils {
 
