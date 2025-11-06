@@ -20,8 +20,8 @@ spotless {
         eclipse('4.31').configFile(formatFile)
     }
     kotlin {
-        target 'src/test/java/**/*.kt'
-        ktlint('1.4.1').setEditorConfigPath("$rootDir/gradle/spotless/spotless.ktlint")
+        target 'src/main/java/**/*.kt', 'src/test/java/**/*.kt'
+        ktlint().setEditorConfigPath("$rootDir/gradle/spotless/spotless.ktlint")
 
         toggleOffOn()
         endWithNewline()
