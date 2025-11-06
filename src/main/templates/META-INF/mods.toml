@@ -42,7 +42,7 @@ curseforge = "ldlib"
 modId = "configuration"
 mandatory = true
 embedded = true
-versionRange = "[${configuration_version},)"
+versionRange = "[3.1.0,)"
 ordering = "AFTER"
 side = "BOTH"
 [dependencies.${ mod_id }.mc-publish]
