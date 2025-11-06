@@ -4,6 +4,9 @@ import static net.minecraft.ChatFormatting.*;
 
 public class GTEValues {
 
+    // Mod ID
+    public static final String MODID_TOP = "gtetop";
+
     // Dyson Sphere Data
     public static final String GALAXY = "g";
     public static final String DYSON_LIST = "l";
@@ -100,7 +103,23 @@ public class GTEValues {
             BLUE.toString() + BOLD + "传奇",
             RED.toString() + BOLD + "MAX" };
 
-    public static final String[] VOLTAGE_NAMESCN = new String[] { "超低压", "低压", "中压", "高压", "超高压", "强导压", "剧差压", "零点压", "极限压", "极高压", "极超压", "极巨压", "超极限压", "过载压", "终压" };
+    public static final String[] VOLTAGE_NAMESCN = new String[] {
+            "超低压",
+            "低压",
+            "中压",
+            "高压",
+            "超高压",
+            "强导压",
+            "剧差压",
+            "零点压",
+            "极限压",
+            "极高压",
+            "极超压",
+            "极巨压",
+            "超极限压",
+            "过载压",
+            "终压"
+    };
 
     public static final String[] VNFR = new String[] {
             DARK_GRAY + "ULV" + RESET,

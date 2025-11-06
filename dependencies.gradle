@@ -1,6 +1,10 @@
 dependencies {
     compileOnly(libs.jetbrains.annotations)
 
+    jarJar(modApi(forge.kotlinforforge.get())).version {
+        require("[${forge.versions.kotlinforforge.get()},)")
+    }
+
     modLocalRuntime(forge.manapeeper.get())
     modClientLocalRuntime(forge.jecharacters.get())
 

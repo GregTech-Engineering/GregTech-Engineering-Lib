@@ -35,6 +35,10 @@ repositories {
         name = 'nova-committee Maven'
         url = "https://maven.nova-committee.cn/s3"
     }
+    maven { // Kotlin for Forge
+        name = 'Kotlin for Forge'
+        url = 'https://thedarkcolour.github.io/KotlinForForge/'
+    }
     maven {
         url = "https://maven.gtceu.com"
         content {
