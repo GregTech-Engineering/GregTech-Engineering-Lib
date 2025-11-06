@@ -1,7 +1,7 @@
 package com.gtelib.api.annotation;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
+import kotlin.annotation.AnnotationTarget;
+import kotlin.annotation.Target;
 
-@Target(ElementType.TYPE)
+@Target(allowedTargets = AnnotationTarget.CLASS)
 public @interface DataGeneratorScanned {}

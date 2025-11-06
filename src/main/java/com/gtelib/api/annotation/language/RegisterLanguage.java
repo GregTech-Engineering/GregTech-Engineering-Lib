@@ -1,11 +1,12 @@
 package com.gtelib.api.annotation.language;
 
-import java.lang.annotation.ElementType;
+import kotlin.annotation.AnnotationTarget;
+import kotlin.annotation.Target;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
 
-@Target(ElementType.FIELD)
+@Target(allowedTargets = AnnotationTarget.CLASS)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RegisterLanguage {
 
