@@ -21,10 +21,4 @@ public @interface DynamicInitialValue {
     String enComment() default "";
 
     String cnComment() default "";
-
-    String easyValue();
-
-    String normalValue();
-
-    String expertValue();
 }
