@@ -37,8 +37,6 @@ jobs:
         run: echo "VERSION_SUFFIX=$(echo "${{ github.sha }}" | cut -c 1-7)" >> $GITHUB_ENV
       - name: spotlessApply
         run: ./gradlew spotlessApply
-      - name: Datagen
-        run: ./gradlew rundata
       - name: Build
         run: ./gradlew build
       - name: Publish to Maven
