@@ -15,18 +15,5 @@ public interface DynamicInitialValueTypes {
     String KEY_CAPACITY = "capacity";
     TypeInfo CAPACITY = new TypeInfo("capacity", "容量", "Capacity");
 
-    record TypeInfo(String key, String cn, String en) {
-
-        public String key() {
-            return this.key;
-        }
-
-        public String cn() {
-            return this.cn;
-        }
-
-        public String en() {
-            return this.en;
-        }
-    }
+    record TypeInfo(String key, String cn, String en) {}
 }
